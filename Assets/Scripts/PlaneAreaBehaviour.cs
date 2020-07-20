@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlaneAreaBehaviour : MonoBehaviour{
+public class PlaneAreaBehaviour {
 
-	public TextMeshPro areaText;
+	public TextMeshPro areaText; 
 	public ARPlane arPlane;
 
 	private void ARPlane_BoundaryChanged(ARPlaneBoundaryChangedEventArgs obj) {
